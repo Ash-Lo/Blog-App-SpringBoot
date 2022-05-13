@@ -1,0 +1,32 @@
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public long setId(long id) {
+        this.id = id;
+        return this.id;
+    }
+
+    public String setTitle(String title) {
+        this.title = title;
+        return this.title;
+    }
+
+    public String setDescription(String description) {
+        this.description = description;
+        return this.description;
+    }
+
+    public String setContent(String content) {
+        this.content = content;
+        return this.content;
+    }
